@@ -5,6 +5,14 @@ Custom hook to create validable forms using `valida-js` for validation
 
 For validation rules see valida-js [docs](https://www.npmjs.com/package/valida-js)
 
+## How to install 
+
+```bash
+yarn add react-valida-hook
+# or
+npm install react-valida-hook
+```
+
 ```js
 /**
  * useValitedForm Hook
