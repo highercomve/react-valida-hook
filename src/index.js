@@ -42,9 +42,13 @@ function getDataFromState (state) {
 }
 
 function extendsValidations (key, validation, newErrors = []) {
+  const invalid = Object.keys(validation.errors).some(errorKey => {
+    return errorKey === key
+      ? newErrors.length !== 0
+      : validation.errors[key].length !== 0
+  })
   return {
-    ...validation,
-    valid: validation.valid && newErrors.length === 0,
+    valid: !invalid,
     errors: {
       ...validation.errors,
       [key]: newErrors
