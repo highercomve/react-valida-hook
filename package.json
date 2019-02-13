@@ -54,10 +54,10 @@
     "jest-environment-enzyme": "^7.0.1",
     "jest-enzyme": "^7.0.1",
     "parcel-bundler": "^1.11.0",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "react": "^16.8.1",
+    "react": "^16.8.0",
     "valida-js": "^0.0.3"
   }
 }
