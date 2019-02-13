@@ -1,0 +1,14 @@
+{
+  "extends": ["standard", "standard-react"],
+  "rules": {
+    "react/prop-types": 0
+  },
+  "plugins": ["jest"],
+  "globals": {
+    "location": true,
+    "localStorage": true
+  },
+  "env": {
+    "jest/globals": true
+  }
+}
