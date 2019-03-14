@@ -8,6 +8,14 @@ For validation rules see valida-js [docs](https://www.npmjs.com/package/valida-j
 **NOTE:**
 Is important to know, valida-js don't return error message, only the and array of error types. Maybe will need to add a proper translation for those messages. That was made on porpuse in order to move translation to other place and not inside the validation library.
 
+## How to install 
+
+```bash
+yarn add react-valida-hook
+# or
+npm install react-valida-hook
+```
+
 ```js
 /**
  * useValitedForm Hook
