@@ -5,6 +5,9 @@ Custom hook to create validable forms using `valida-js` for validation
 
 For validation rules see valida-js [docs](https://www.npmjs.com/package/valida-js)
 
+**NOTE:**
+Is important to know, valida-js don't return error message, only the and array of error types. Maybe will need to add a proper translation for those messages. That was made on porpuse in order to move translation to other place and not inside the validation library.
+
 ```js
 /**
  * useValitedForm Hook
