@@ -7774,10 +7774,10 @@ v8-compile-cache@^2.0.0:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.0.2.tgz#a428b28bb26790734c4fc8bc9fa106fccebf6a6c"
   integrity sha512-1wFuMUIM16MDJRCrpbpuEPTUGmM5QMUg0cr3KFwra2XgOgFcPGDQHDh3CszSCD2Zewc/dh/pamNEW8CbfDebUw==
 
-valida-js@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/valida-js/-/valida-js-0.0.3.tgz#c45eaf16da9d4d16b075f62aa42d1fc238c8b960"
-  integrity sha512-gU0w64GPIfOP2Q+Xdqxgm5g8SbQEAyH4LissuXep6VSDrsD2NEWHrgFVotD+yBMGtpxP/XrBFR0MJpT0TEqMxw==
+valida-js@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/valida-js/-/valida-js-0.0.5.tgz#79e994a70732612bb4bea519547c2d216337cef8"
+  integrity sha512-wRsN3JxSSKxzv/Y2HNpbXjNUZx0QXO9pNyEoIL+XPsIUX2L/CrfOTJ/IzI7/HgW41App+O9G2FDhmYhS25ZEcQ==
   dependencies:
     lodash.get "^4.4.2"
 
