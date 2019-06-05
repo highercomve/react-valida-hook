@@ -1,3 +1,5 @@
+[![Codeship Status for highercomve/react-valida-hook](https://app.codeship.com/projects/60f58b80-69f6-0137-0255-3699c784bbf0/status?branch=master)](https://app.codeship.com/projects/346272)
+
 React Valida Hook
 ==========================================
 
